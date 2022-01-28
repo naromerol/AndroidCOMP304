@@ -21,14 +21,14 @@ public class MainActivity2 extends AppCompatActivity {
         Intent intent = new Intent(this, MainActivity3.class);
         startActivity(intent);
 
-/*
-        Intent intent = new Intent(this, MainActivity2.class);
+
+        //Intent intent = new Intent(this, MainActivity2.class);
         startActivity(intent);
         Bundle values = getIntent().getExtras(); // Need a reference to Intent
         String name = values.getString("EmployeeName");
         int empID = values.getInt("EmployeeId");
         float sal = values.getFloat("Salary");
         Toast.makeText(this, "Employeee ID:" + empID + "\nEmployee Name: " + name + "\nSalary: " + sal, Toast.LENGTH_SHORT ).show();
-*/
+
     } // end method
 } // end class

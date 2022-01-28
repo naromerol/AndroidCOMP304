@@ -21,13 +21,13 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, MainActivity2.class);
         startActivity(intent);
 
-        /*
+
         // If you want to send values to second activity..
-        Intent intent = new Intent(this, MainActivity2.class);
+        //Intent intent = new Intent(this, MainActivity2.class);
         intent.putExtra("EmployeeName", "Centennial");
         intent.putExtra("EmployeeId", 123);
         intent.putExtra("Salary", 2545.00);
         startActivity(intent);
-*/
+
     }
 } // end class
