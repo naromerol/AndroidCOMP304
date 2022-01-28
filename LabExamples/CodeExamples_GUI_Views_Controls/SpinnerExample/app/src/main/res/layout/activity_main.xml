@@ -1,0 +1,33 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#B4E6E1">
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:orientation="vertical"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:background="#EAAC50">
+
+        <Spinner
+            android:id="@+id/provinces_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/provinces"
+            android:prompt="@string/prompt"
+
+            android:spinnerMode="dropdown" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textColor="@color/colorPrimary"
+            android:textFontWeight="20"
+            android:textSize="18dp"/>
+
+
+    </LinearLayout>
+</ScrollView>

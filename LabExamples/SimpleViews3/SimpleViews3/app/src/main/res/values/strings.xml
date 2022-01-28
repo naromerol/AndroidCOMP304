@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SimpleViews3</string>
+<string-array name = "programs">
+     <item>Software Engineering Technology</item>
+    <item>Game - Programming</item>
+    <item>Health Informatics Technology</item>
+    <item>Software Engineering Technician</item>
+    <item>Mobile Apps Development</item>
+    <item>Software Engineering Technology - Artificial Intelligence</item>
+
+</string-array>
+
+</resources>
