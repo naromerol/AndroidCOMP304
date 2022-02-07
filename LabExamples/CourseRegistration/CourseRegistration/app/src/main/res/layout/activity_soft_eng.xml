@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SoftEngActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select courses:"
+        android:textSize="24sp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxAndroid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckboxClicked"
+        android:text="Android Development" />
+
+    <CheckBox
+        android:id="@+id/checkBoxDataStructures"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckboxClicked"
+        android:text="Data Structures and Algorithms" />
+
+    <CheckBox
+        android:id="@+id/checkBoxSoftwareTesting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckboxClicked"
+        android:text="Software Testing and QA" />
+
+    <CheckBox
+        android:id="@+id/checkBoxLinearAlgebra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckboxClicked"
+        android:text="Linear Algebra and Stats" />
+
+    <CheckBox
+        android:id="@+id/checkBoxProgramming3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckboxClicked"
+        android:text="Programming 3" />
+
+    <CheckBox
+        android:id="@+id/checkBoxNetworking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckboxClicked"
+        android:text="Networking for Software Developers" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickNext"
+        android:text="Next" />
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Course Registration</string>
+    <string name="message"> Select your program in the menu</string>
+    <string name="set_y">SET</string>
+    <string name="game_programming">Game - Programming</string>
+    <string name="hit">HIT</string>
+
+    <string-array name="available_courses">
+        <item>Android</item>
+        <item>Data Structures</item>
+        <item>Software Testing</item>
+        <item>Linear Algebra</item>
+        <item>Programming 3</item>
+        <item>Networking</item>
+    </string-array>
+
+</resources>

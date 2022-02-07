@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TimePickerFragmentDialog</string>
+    <string name="pick_time">Pick Time</string>
+    <string name="pick_date">Pick Date</string>
+
+
+</resources>
