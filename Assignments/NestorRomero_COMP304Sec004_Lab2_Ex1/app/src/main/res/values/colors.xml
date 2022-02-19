@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="realEstateTeal">#FF4D7775</color>
+    <color name="realEstateLightGray">#BBE4E9ED</color>
+    <color name="realEstateBlue">#FF0A8FFA</color>
+    <color name="realEstateOlive">#FFBBAE4C</color>
+    <color name="realEstateGreen">#FFA5AE32</color>
+    <color name="realEstateBlack">#FF2B1F18</color>
+    <color name="realEstateDarkBrown">#FF695444</color>
+    <color name="realEstateGray">#FFCCCCCC</color>
+</resources>

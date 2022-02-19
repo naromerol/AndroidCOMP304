@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/realEstateLightGray"
+    tools:context=".UnitTypesActivity">
+
+    <ImageView
+        android:id="@+id/img_apartment"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/apartment" />
+
+    <Button
+        android:id="@+id/bnt_apartments"
+        android:layout_width="185dp"
+        android:layout_height="49dp"
+        android:backgroundTint="@color/realEstateTeal"
+        android:onClick="onApartmentClick"
+        android:text="@string/label_apartments"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.23"
+        app:layout_constraintStart_toEndOf="@+id/img_apartment"
+        app:layout_constraintTop_toTopOf="@+id/img_apartment" />
+
+    <ImageView
+        android:id="@+id/img_condo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintStart_toStartOf="@+id/img_apartment"
+        app:layout_constraintTop_toBottomOf="@+id/img_apartment"
+        app:srcCompat="@drawable/condo" />
+
+    <Button
+        android:id="@+id/bnt_condos"
+        android:layout_width="185dp"
+        android:layout_height="49dp"
+        android:backgroundTint="@color/realEstateGreen"
+        android:onClick="onCondoClick"
+        android:text="@string/label_condos"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/bnt_apartments"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/img_condo"
+        app:layout_constraintTop_toTopOf="@+id/img_condo" />
+
+    <ImageView
+        android:id="@+id/img_detached"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintStart_toStartOf="@+id/img_condo"
+        app:layout_constraintTop_toBottomOf="@+id/img_condo"
+        app:srcCompat="@drawable/detached" />
+
+    <Button
+        android:id="@+id/bnt_detached"
+        android:layout_width="185dp"
+        android:layout_height="49dp"
+        android:backgroundTint="@color/realEstateDarkBrown"
+        android:onClick="onDetachedClick"
+        android:text="@string/label_detached"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/bnt_condos"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/img_detached"
+        app:layout_constraintTop_toTopOf="@+id/img_detached" />
+
+    <ImageView
+        android:id="@+id/img_semidetached"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintStart_toStartOf="@+id/img_detached"
+        app:layout_constraintTop_toBottomOf="@+id/img_detached"
+        app:srcCompat="@drawable/semidetached" />
+
+    <Button
+        android:id="@+id/bnt_semidetached"
+        android:layout_width="185dp"
+        android:layout_height="49dp"
+        android:backgroundTint="@color/realEstateBlue"
+        android:onClick="onSemiDetachedClick"
+        android:text="@string/label_semidetached"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/bnt_detached"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/img_semidetached"
+        app:layout_constraintTop_toTopOf="@+id/img_semidetached" />
+
+    <ImageView
+        android:id="@+id/img_townhouse"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintStart_toStartOf="@+id/img_semidetached"
+        app:layout_constraintTop_toBottomOf="@+id/img_semidetached"
+        app:srcCompat="@drawable/townhouse" />
+
+    <Button
+        android:id="@+id/bnt_townhouse"
+        android:layout_width="185dp"
+        android:layout_height="49dp"
+        android:backgroundTint="@color/realEstateOlive"
+        android:onClick="onTownHouseClick"
+        android:text="@string/label_townhouses"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/bnt_semidetached"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/img_townhouse"
+        app:layout_constraintTop_toTopOf="@+id/img_townhouse" />
+
+    <Button
+        android:id="@+id/bnt_checkout"
+        android:layout_width="233dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="96dp"
+        android:backgroundTint="@color/realEstateTeal"
+        android:onClick="onCheckoutClick"
+        android:text="@string/checkout"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bnt_townhouse" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

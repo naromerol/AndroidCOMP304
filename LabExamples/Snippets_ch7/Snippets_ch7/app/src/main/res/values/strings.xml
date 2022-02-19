@@ -1,0 +1,5 @@
+<resources>
+  <string name="app_name">My App</string>
+  <string name="my_feed">https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.atom</string>
+  <string name="json_feed">https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson</string>
+</resources>

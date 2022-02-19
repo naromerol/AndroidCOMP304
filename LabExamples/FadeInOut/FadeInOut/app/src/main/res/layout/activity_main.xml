@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorActBkg"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+    <ImageView android:id="@+id/imgvw"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:src="@drawable/scene01"/>
+    <Button
+        android:id="@+id/btnFadeIn"
+        android:layout_below="@+id/imgvw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:onClick="FadeIn_Click"
+        android:text="FADE IN"
+        android:layout_marginLeft="100dp" />
+    <Button
+        android:id="@+id/btnFadeOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:layout_marginLeft="10dp"
+        android:layout_alignBottom="@+id/btnFadeIn"
+        android:layout_toRightOf="@+id/btnFadeIn"
+        android:text="FADE OUT" />
+</RelativeLayout>

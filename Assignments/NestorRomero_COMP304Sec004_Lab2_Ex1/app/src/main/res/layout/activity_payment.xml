@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaymentActivity">
+
+    <EditText
+        android:id="@+id/txt_cc_name"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="@string/cc_name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.223"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txt_cc_number"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="16"
+        android:hint="@string/cc_number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.223"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_cc_name" />
+
+    <EditText
+        android:id="@+id/txt_cc_month"
+        android:layout_width="119dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="2"
+        android:hint="@string/cc_month"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txt_cc_number"
+        app:layout_constraintTop_toBottomOf="@+id/txt_cc_number" />
+
+    <EditText
+        android:id="@+id/txt_cc_year"
+        android:layout_width="117dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="2"
+        android:hint="@string/cc_year"
+        app:layout_constraintEnd_toEndOf="@+id/txt_cc_month"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/txt_cc_month"
+        app:layout_constraintTop_toBottomOf="@+id/txt_cc_month" />
+
+    <EditText
+        android:id="@+id/txt_cc_ccv"
+        android:layout_width="119dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/cc_ccv"
+        android:inputType="numberPassword"
+        android:maxLength="3"
+        app:layout_constraintEnd_toEndOf="@+id/txt_cc_year"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/txt_cc_year"
+        app:layout_constraintTop_toBottomOf="@+id/txt_cc_year" />
+
+    <TextView
+        android:id="@+id/cc_detail"
+        android:layout_width="176dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="36dp"
+        android:text="@string/cc_detail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_cc_number" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:onClick="onFinishClick"
+        android:text="@string/cc_finish"
+        style="@style/real_estate_text_bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.414"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cc_detail" />
+</androidx.constraintlayout.widget.ConstraintLayout>

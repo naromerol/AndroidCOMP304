@@ -1,0 +1,30 @@
+<resources>
+    <!-- General labels-->
+    <string name="app_name">Lab2 Ex1 - Real Estate App</string>
+    <string name="welcome_app">Welcome to our real estate app!</string>
+    <string name="enter_app">Enter</string>
+    <string name="label_select">Select</string>
+    <string name="label_back">Back</string>
+    <string name="label_confirm">Confirm</string>
+    <string name="preferences_name">RealEstateCOMP304</string>
+    <!-- Unit Types Labels -->
+    <string name="label_apartments">Apartments</string>
+    <string name="label_condos">Condos</string>
+    <string name="label_detached">Detached Homes</string>
+    <string name="label_semidetached">Semi-detached Homes</string>
+    <string name="label_townhouses">Town Houses</string>
+    <string name="label_address">Address: </string>
+    <string name="label_rent">Rent: </string>
+    <!-- Checkout strings -->
+    <string name="checkout">Checkout</string>
+    <string name="checkout_help">Please choose the definitive unit from among the previously selected options: </string>
+    <!-- Payment strings -->
+    <string name="cc_name">Credit Card Full Name</string>
+    <string name="cc_number">Credit Card Number</string>
+    <string name="cc_month">Month (MM)</string>
+    <string name="cc_year">Year (YY)</string>
+    <string name="cc_ccv">CCV (XXX)</string>
+    <string name="cc_detail">Detail</string>
+    <string name="cc_finish">Finish</string>
+
+</resources>

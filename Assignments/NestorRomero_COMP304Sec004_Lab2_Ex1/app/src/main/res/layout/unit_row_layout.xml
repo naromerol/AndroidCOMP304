@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp">
+
+    <ImageView
+        android:id="@+id/unit_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_weight="0.3"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/app_name"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.7">
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:text="@string/label_address"
+            style="@style/real_estate_text_bold"/>
+
+        <TextView
+            android:id="@+id/unit_address"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            style="@style/real_estate_text"/>
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:text="@string/label_rent"
+            style="@style/real_estate_text_bold"/>
+
+        <TextView
+            android:id="@+id/unit_rent"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            style="@style/real_estate_text"
+            />
+
+        <CheckBox
+            android:id="@+id/unit_selected"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            style="@style/real_estate_text"
+            android:text="@string/label_select"></CheckBox>
+
+    </LinearLayout>
+
+</LinearLayout>

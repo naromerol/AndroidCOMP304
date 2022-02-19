@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorActBkg"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <ImageView android:id="@+id/imgvw"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:src="@drawable/scene01"/>
+    <Button
+        android:id="@+id/btnSlideDown"
+        android:layout_below="@+id/imgvw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorButBkg"
+        android:textColor="@color/colorButText"
+        android:text="SLIDE DOWN"
+        android:layout_marginLeft="100dp" />
+    <Button
+        android:id="@+id/btnSlideUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnSlideDown"
+        android:layout_toRightOf="@+id/btnSlideDown"
+        android:background="@color/colorButBkg"
+        android:textColor="@color/colorButText"
+        android:layout_marginLeft="10dp"
+        android:text="SLIDE UP" />
+</RelativeLayout>
